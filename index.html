@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="head container rounded shadow-lg d-flex justify-content-between mt-2 col-sm">
+        <div class="display-4">
+            Agenda
+        </div>
+        <span class="desenvolvedor">Desenvolvido por Fábio Asada 2021</span>
+    </div>
+
+    <div class="container border shadow-lg mt-1">
+        
+        <div class="div-forms pt-4">
+            <form class="formAdd">
+                <div class="form-group bg-white text-center d-flex justify-content-center pt-4 pb-4 rounded">
+                    <input class="inputTextAdd mr-4 border" type="text" name="add" placeholder=" Adicione na lista...">
+                    <button class="botaoAdicionar btn btn-info p-1 mr-4">Adicionar</button>
+                </div>
+            </form>
+
+            <form class="formPesquisar">
+                <div class="form-group bg-white text-center d-flex justify-content-center pt-4 pb-4 rounded">
+                    <input class="inputTextPesquisar mr-4 border" type="text" name="pesquisar" placeholder=" Procurar...">
+                    <button class="botaoPesquisar btn btn-info p-1 mr-4">Pesquisar</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="container divLi bg-white rounded shadow-lg border">
+        
+
+            <ul class="ul">
+                
+                <li class="lista d-flex justify-content-between align-items-center p-3 border-bottom">
+                    <span>Tarefas...</span>
+                    <i class="far fa-trash-alt lixeira rounded"></i>
+                </li>
+    
+            </ul>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

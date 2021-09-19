@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(195, 195, 211);
+}
+
+.head{
+    background-color: #121213;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    padding: 15px;
+}
+
+.desenvolvedor{
+    padding-top: 60px;
+}
+
+input{
+    width: 800px;
+}
+
+.ul{
+    list-style: none;
+}
+
+.lixeira{
+    width: fit-content;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(246, 30, 74);
+}
+
+.lixeira:hover {
+    background-color: rgb(133, 19, 41);
+} 
+
+.divLi{
+    margin-top: 40px;
+    width: 1000px;
+}
+
+.check{
+    background-color: rgb(60, 192, 60);
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.check:hover{
+    background-color: rgb(48, 109, 48);
+}
